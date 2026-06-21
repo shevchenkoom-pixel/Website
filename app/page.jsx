@@ -9,6 +9,7 @@ import {
   Sparkles,
   Target,
 } from "lucide-react";
+import PortfolioAssistant from "./portfolio-assistant";
 
 const career = [
   {
@@ -96,6 +97,7 @@ export default function Home() {
         <nav aria-label="Primary navigation">
           <a href="#about">About</a>
           <a href="#career">Career</a>
+          <a href="#assistant">AI Assistant</a>
           <a href="#portfolio">Portfolio</a>
           <a className="nav-cta" href="mailto:alex.m.shevchenko@gmail.com">
             Contact
@@ -204,6 +206,14 @@ export default function Home() {
             </article>
           ))}
         </div>
+      </section>
+
+      <section id="assistant" className="section assistant-section">
+        <div className="section-heading">
+          <p className="section-kicker">AI assistant</p>
+          <h2>Ask focused questions about Oleksii's portfolio.</h2>
+        </div>
+        <PortfolioAssistant />
       </section>
 
       <section id="portfolio" className="section portfolio">
