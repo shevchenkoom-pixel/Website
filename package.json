@@ -1,0 +1,22 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "Personal enterprise-style portfolio page for Oleksii Shevchenko",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": ["portfolio", "nextjs", "personal-page"],
+  "author": "Oleksii Shevchenko",
+  "license": "UNLICENSED",
+  "type": "module",
+  "dependencies": {
+    "lucide-react": "^1.21.0",
+    "next": "^16.2.9",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  }
+}
